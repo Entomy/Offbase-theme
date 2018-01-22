@@ -26,14 +26,14 @@
 		{
 			"name": "Invalid",
 			"scope": ["invalid"],
-			"settings":{
+			"settings": {
 				"foreground": "#BF2F2F"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": ["keyword"],
-			"settings":{
+			"settings": {
 				"foreground": "#AAAAAA",
 				"fontStyle": "bold"
 			}
@@ -41,7 +41,7 @@
 		{
 			"name": "String",
 			"scope": ["string"],
-			"settings":{
+			"settings": {
 				"foreground": "#BF8F2F"
 			}
 		},
@@ -52,7 +52,7 @@
 				"support.type",
 				"entity.name.type"
 			],
-			"settings":{
+			"settings": {
 				"foreground": "#2F8FBF"
 			}
 		}

@@ -1,13 +1,9 @@
 # README
-## This is the README for your extension "offbase"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+**This theme is currently in development, so don't expect much out of it.**
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Overview
 
-**Enjoy!**
+This is a color theme for [VS Code](https://code.visualstudio.com/) based on work and study I've done involving human vision.
+
+The name is given to the slightly off hue compared to "standard" colors. The pallet itself is largely based around perceptual uniformity, although some considerations are made for _importance_ of information.
