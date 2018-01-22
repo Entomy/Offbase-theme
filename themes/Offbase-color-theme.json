@@ -31,10 +31,40 @@
 			}
 		},
 		{
+			"name": "Entity, Name",
+			"scope": ["entity.name"],
+			"settings":{
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Entity, Attribute",
+			"scope": ["entity.other.attribute-name"],
+			"settings": {
+				"foreground": "#2FBF8F"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
 				"foreground": "#AAAAAA",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Control",
+			"scope": ["keyword.control"],
+			"settings":{
+				"foreground": "#BF2F2F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Control, Directive",
+			"scope": ["keyword.control.directive"],
+			"settings":{
+				"foreground": "#8F2FBF",
 				"fontStyle": "bold"
 			}
 		},
