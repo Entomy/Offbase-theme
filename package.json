@@ -1,0 +1,22 @@
+{
+    "name": "offbase",
+    "displayName": "Offbase",
+    "description": "Color theme designed around being slightly off hue from base colors while generally remaining consistant in saturation and value as defined by the HSV model. ",
+    "version": "0.0.1",
+    "publisher": "Entomy",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Offbase",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Offbase-color-theme.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+	"name": "Offbase",
+	"type": "dark",
+	"colors": {
+		"activityBar.background": "#888888",
+		"activityBar.border": "#007ACC",
+		"activityBarBadge.background": "#007acc",
+		"editor.background": "#222222",
+		"editor.foreground": "#AAAAAA",
+		"editorLineNumber.foreground": "#444444",
+		"sideBar.background": "#222222",
+		"sideBar.border": "#888888",
+		"sideBar.foreground": "#AAAAAA",
+		"sideBarSectionHeader.background": "#888888",
+		"sideBarSectionHeader.foreground": "#000000",
+		"sideBarTitle.foreground": "#AAAAAA"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#444444"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": ["invalid"],
+			"settings":{
+				"foreground": "#BF2F2F"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": ["keyword"],
+			"settings":{
+				"foreground": "#AAAAAA",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "String",
+			"scope": ["string"],
+			"settings":{
+				"foreground": "#BF8F2F"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": [
+				"storage.type",
+				"support.type",
+				"entity.name.type"
+			],
+			"settings":{
+				"foreground": "#2F8FBF"
+			}
+		}
+	]
+}
