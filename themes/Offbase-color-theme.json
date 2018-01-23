@@ -24,17 +24,17 @@
 			}
 		},
 		{
+			"name": "Constant",
+			"scope": ["constant"],
+			"settings":{
+				"foreground": "#BFBF2F"
+			}
+		},
+		{
 			"name": "Invalid",
 			"scope": ["invalid"],
 			"settings": {
 				"foreground": "#BF2F2F"
-			}
-		},
-		{
-			"name": "Entity, Name",
-			"scope": ["entity.name"],
-			"settings":{
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -84,6 +84,13 @@
 			],
 			"settings": {
 				"foreground": "#2F8FBF"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": ["variable"],
+			"settings": {
+				"foreground": "#8FBF2F"
 			}
 		}
 	]
