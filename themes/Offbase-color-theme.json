@@ -27,7 +27,7 @@
 			"name": "Constant",
 			"scope": ["constant"],
 			"settings":{
-				"foreground": "#BFBF2F"
+				"foreground": "#AFAF2F"
 			}
 		},
 		{
@@ -56,8 +56,8 @@
 			"name": "Keyword, Control",
 			"scope": ["keyword.control"],
 			"settings":{
-				"foreground": "#BF2F2F",
-				"fontStyle": "bold"
+				"foreground": "#AAAAAA",
+				"fontStyle": "italic bold"
 			}
 		},
 		{
@@ -69,18 +69,32 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": ["punctuation"],
+			"settings":{
+				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "Punctuation, String",
+			"scope": ["punctuation.definition.string"],
+			"settings":{
+				"foreground": "#BF8F2F",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "String",
 			"scope": ["string"],
 			"settings": {
-				"foreground": "#BF8F2F"
+				"foreground": "#AF6F2F"
 			}
 		},
 		{
 			"name": "Type",
 			"scope": [
 				"storage.type",
-				"support.type",
-				"entity.name.type"
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#2F8FBF"
