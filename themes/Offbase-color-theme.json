@@ -61,6 +61,14 @@
 			}
 		},
 		{
+			"name": "Entity, Selector",
+			"scope": ["entity.name.selector"],
+			"settings":{
+				"foreground": "#AAAAAA",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
