@@ -61,6 +61,14 @@
 			}
 		},
 		{
+			"name": "Entity, Section",
+			"scope": ["entity.name.section"],
+			"settings":{
+				"foreground": "#AAAAAA",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
 			"name": "Entity, Selector",
 			"scope": ["entity.name.selector"],
 			"settings":{
