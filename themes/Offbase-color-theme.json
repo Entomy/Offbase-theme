@@ -97,7 +97,6 @@
 			"scope": ["keyword.control.directive"],
 			"settings":{
 				"foreground": "#8F2FBF",
-				"fontStyle": "bold"
 			}
 		},
 		{
