@@ -11,11 +11,6 @@
 		"editor.foreground": "#AAAAAA",
 		"editorError.border": "#BF2F2F",
 		"editorLineNumber.foreground": "#444444",
-		"editorGutter.addedBackground": "#8FBF2F",
-		"editorGutter.deletedBackground": "#BF2F2F",
-		"editorGutter.modifiedBackground": "#BF8F2F",
-		"editorHoverWidget.background": "#333333",
-		"editorHoverWidget.border": "#555555",
 		"notification.background": "#444444",
 		"notification.foreground": "#AAAAAA",
 		"panel.border": "#2F8FBF",
@@ -29,18 +24,17 @@
 		"sideBarSectionHeader.foreground": "#000000",
 		"sideBarTitle.foreground": "#AAAAAA",
 		"terminal.ansiBlue": "#2F8FBF",
-		"terminal.ansiBrightBlue": "#007fbf",
+		"terminal.ansiBrightBlue": "#007FBF",
 		"terminal.ansiCyan": "#2FBF8F",
-		"terminal.ansiBrightCyan": "#00bf7f",
+		"terminal.ansiBrightCyan": "#00BF7F",
 		"terminal.ansiGreen": "#8FBF2F",
-		"terminal.ansiBrightGreen": "#7fbf00",
+		"terminal.ansiBrightGreen": "#7FBF00",
 		"terminal.ansiMagenta": "#8F2FBF",
-		"terminal.ansiBrightMagenta": "#7f00bf",
+		"terminal.ansiBrightMagenta": "#7F00BF",
 		"terminal.ansiRed": "#BF2F2F",
 		"terminal.ansiBrightRed": "#BF0000",
 		"terminal.ansiYellow": "#BF8F2F",
-		"terminal.ansiBrightYellow": "#bf7f00",
-		"titleBar.border": "#2F8FBF",
+		"terminal.ansiBrightYellow": "#BF7F00"
 	},
 	"tokenColors": [
 		{
@@ -53,7 +47,7 @@
 		{
 			"name": "Comment, Document",
 			"scope": ["comment.block.documentation"],
-			"settings": {
+			"settings":{
 				"foreground": "#666666",
 				"fontStyle": "italic"
 			}
@@ -61,8 +55,15 @@
 		{
 			"name": "Constant",
 			"scope": ["constant"],
-			"settings": {
+			"settings":{
 				"foreground": "#BF8F2F"
+			}
+		},
+		{
+			"name": "Constant, Base",
+			"scope": ["constant.numeric.base"],
+			"settings": {
+				"foreground": "#806A40"
 			}
 		},
 		{
@@ -82,7 +83,7 @@
 		{
 			"name": "Entity, Section",
 			"scope": ["entity.name.section"],
-			"settings": {
+			"settings":{
 				"foreground": "#AAAAAA",
 				"fontStyle": "bold underline"
 			}
@@ -90,7 +91,7 @@
 		{
 			"name": "Entity, Selector",
 			"scope": ["entity.name.selector"],
-			"settings": {
+			"settings":{
 				"foreground": "#AAAAAA",
 				"fontStyle": "italic"
 			}
@@ -106,13 +107,13 @@
 		{
 			"name": "Keyword, Control",
 			"scope": ["keyword.control"],
-			"settings": {
+			"settings":{
 				"foreground": "#AAAAAA",
 				"fontStyle": "italic bold"
 			}
 		},
 		{
-			"name": "Keyword, Directive",
+			"name": "Keyword, Control, Directive",
 			"scope": ["keyword.control.directive"],
 			"settings": {
 				"foreground": "#8F2FBF",
@@ -122,7 +123,7 @@
 		{
 			"name": "Keyword, Other",
 			"scope": ["keyword.other"],
-			"settings":{
+			"settings": {
 				"foreground": "#8FBF2F",
 				"fontStyle": "bold"
 			}
@@ -130,14 +131,28 @@
 		{
 			"name": "Punctuation",
 			"scope": ["punctuation"],
-			"settings": {
+			"settings":{
 				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "Punctuation, Exponent Mark",
+			"scope": ["punctuation.exponent-mark"],
+			"settings":{
+				"foreground": "#806A40"
+			}
+		},
+		{
+			"name": "Punctuation, Radix Point",
+			"scope": ["punctuation.radix-point"],
+			"settings":{
+				"foreground": "#806A40"
 			}
 		},
 		{
 			"name": "Punctuation, String",
 			"scope": ["punctuation.definition.string"],
-			"settings": {
+			"settings":{
 				"foreground": "#BF8F2F",
 				"fontStyle": "bold"
 			}
