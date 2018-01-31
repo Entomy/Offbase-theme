@@ -11,6 +11,11 @@
 		"editor.foreground": "#AAAAAA",
 		"editorError.border": "#BF2F2F",
 		"editorLineNumber.foreground": "#444444",
+		"editorGutter.addedBackground": "#8FBF2F",
+		"editorGutter.deletedBackground": "#BF2F2F",
+		"editorGutter.modifiedBackground": "#BF8F2F",
+		"editorHoverWidget.background": "#333333",
+		"editorHoverWidget.border": "#555555",
 		"notification.background": "#444444",
 		"notification.foreground": "#AAAAAA",
 		"panel.border": "#2F8FBF",
@@ -24,12 +29,18 @@
 		"sideBarSectionHeader.foreground": "#000000",
 		"sideBarTitle.foreground": "#AAAAAA",
 		"terminal.ansiBlue": "#2F8FBF",
+		"terminal.ansiBrightBlue": "#007fbf",
 		"terminal.ansiCyan": "#2FBF8F",
+		"terminal.ansiBrightCyan": "#00bf7f",
 		"terminal.ansiGreen": "#8FBF2F",
+		"terminal.ansiBrightGreen": "#7fbf00",
 		"terminal.ansiMagenta": "#8F2FBF",
+		"terminal.ansiBrightMagenta": "#7f00bf",
 		"terminal.ansiRed": "#BF2F2F",
+		"terminal.ansiBrightRed": "#BF0000",
 		"terminal.ansiYellow": "#BF8F2F",
-		"titleBar.border": "#2F8FBF"
+		"terminal.ansiBrightYellow": "#bf7f00",
+		"titleBar.border": "#2F8FBF",
 	},
 	"tokenColors": [
 		{
@@ -51,7 +62,7 @@
 			"name": "Constant",
 			"scope": ["constant"],
 			"settings": {
-				"foreground": "#AFAF2F"
+				"foreground": "#BF8F2F"
 			}
 		},
 		{
