@@ -112,11 +112,19 @@
 			}
 		},
 		{
-			"name": "Keyword, Control, Directive",
+			"name": "Keyword, Directive",
 			"scope": ["keyword.control.directive"],
 			"settings": {
 				"foreground": "#8F2FBF",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keyword, Other",
+			"scope": ["keyword.other"],
+			"settings":{
+				"foreground": "#8FBF2F",
+				"fontStyle": "bold"
 			}
 		},
 		{
