@@ -81,6 +81,13 @@
 			}
 		},
 		{
+			"name": "Entity, Label",
+			"scope": ["entity.name.label"],
+			"settings":{
+				"foreground": "#BF8FAF"
+			}
+		},
+		{
 			"name": "Entity, Section",
 			"scope": ["entity.name.section"],
 			"settings":{

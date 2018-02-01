@@ -20,3 +20,7 @@ The palette used by this color theme makes some assumptions:
 * The user's environment is generally white-light illuminated
 
 Every palette makes assumptions in order to work. After the "normal" palette is finished, I will consider doing palettes with the same spirit for deuteranomaly, deuteranopia, protanomaly, protanoptia, tritanomaly, and tritanopia. Achromatopsia is impossible to create a palette for, and so won't ever have considerations for under this project.
+
+# Help Me Out
+
+Good quality extensions take a lot of time. Considerably more than just "meh, close enough" level work. If you'd like to help out but don't know how to contribute to the code, consider donating to my [Patreon](https://www.patreon.com/Entomy). Leave a message with the donation about it being for this extension, and I'll weight my work towards this.
