@@ -31,8 +31,8 @@
 		"terminal.ansiBrightGreen": "#7FBF00",
 		"terminal.ansiMagenta": "#8F2FBF",
 		"terminal.ansiBrightMagenta": "#7F00BF",
-		"terminal.ansiRed": "#BF2F2F",
-		"terminal.ansiBrightRed": "#BF0000",
+		"terminal.ansiRed": "#BF3060",
+		"terminal.ansiBrightRed": "#BF0040",
 		"terminal.ansiYellow": "#BF8F2F",
 		"terminal.ansiBrightYellow": "#BF7F00"
 	},
@@ -81,6 +81,13 @@
 			}
 		},
 		{
+			"name": "Entity, Exception",
+			"scope": ["entity.name.exception"],
+			"settings":{
+				"foreground": "#BF2F2F"
+			}
+		},
+		{
 			"name": "Entity, Label",
 			"scope": ["entity.name.label"],
 			"settings":{
@@ -91,7 +98,7 @@
 			"name": "Entity, Section",
 			"scope": ["entity.name.section"],
 			"settings":{
-				"foreground": "#AAAAAA",
+				"foreground": "#FFFFFF",
 				"fontStyle": "bold underline"
 			}
 		},
