@@ -172,6 +172,14 @@
 			}
 		},
 		{
+			"name": "Storage, Modifier",
+			"scope": ["storage.modifier"],
+			"settings":{
+				"foreground": "#2F8FBF",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "String",
 			"scope": ["string"],
 			"settings": {
