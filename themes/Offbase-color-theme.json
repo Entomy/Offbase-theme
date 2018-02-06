@@ -196,6 +196,14 @@
 			}
 		},
 		{
+			"name": "Storage, Visibility",
+			"scope": ["storage.visibility"],
+			"settings":{
+				"foreground": "#AF8FBF",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "String",
 			"scope": ["string"],
 			"settings": {
