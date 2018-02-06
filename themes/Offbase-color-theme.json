@@ -175,7 +175,7 @@
 			"name": "Storage, Modifier",
 			"scope": ["storage.modifier"],
 			"settings":{
-				"foreground": "#2F8FBF",
+				"foreground": "#8FAFBF",
 				"fontStyle": "bold"
 			}
 		},
