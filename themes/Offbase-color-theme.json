@@ -135,11 +135,27 @@
 			}
 		},
 		{
-			"name": "Keyword, Other",
-			"scope": ["keyword.other"],
+			"name": "Keyword, Modifier",
+			"scope": ["keyword.control"],
 			"settings": {
-				"foreground": "#8FBF2F",
+				"foreground": "#AAAAAA",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Modifier, Unknown",
+			"scope": ["keyword.modifier.unknown"],
+			"settings": {
+				"foreground": "#AFBF8F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": ["keyword.operator"],
+			"settings":{
+				"foreground": "#FFFFFF",
+				"fontStyle": ""
 			}
 		},
 		{
