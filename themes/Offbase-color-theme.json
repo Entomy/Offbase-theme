@@ -213,6 +213,8 @@
 		{
 			"name": "Type",
 			"scope": [
+				"entity.name.type",
+				"keyword.type",
 				"storage.type",
 				"support.type"
 			],
