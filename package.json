@@ -2,7 +2,7 @@
     "name": "offbase",
     "displayName": "Offbase",
     "description": "Color theme designed around being slightly off hue from base colors while generally remaining consistant in saturation and value as defined by the HSV model. ",
-    "version": "0.20.0",
+    "version": "0.21.0",
     "publisher": "Entomy",
     "repository": {
         "type": "git",
