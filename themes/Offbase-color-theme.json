@@ -109,6 +109,17 @@
 			}
 		},
 		{
+			"name": "Entity, Tag",
+			"scope": [
+				"entity.name.tag.block",
+				"entity.name.tag.inline"
+			],
+			"settings":{
+				"foreground": "#AAAAAA",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
