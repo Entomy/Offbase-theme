@@ -109,6 +109,13 @@
 			}
 		},
 		{
+			"name": "Entity, Tag",
+			"scope": ["entity.name.tag"],
+			"settings": {
+				"foreground": "#7F6A3F"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
@@ -149,6 +156,13 @@
 			}
 		},
 		{
+			"name": "Meta, Tag",
+			"scope": ["meta.tag"],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Operator",
 			"scope": ["keyword.operator"],
 			"settings":{
@@ -161,6 +175,13 @@
 			"scope": ["punctuation"],
 			"settings":{
 				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "Punctuation, Tag",
+			"scope": ["punctuation.definition.tag"],
+			"settings": {
+				"foreground": "#BF9F5F"
 			}
 		},
 		{
