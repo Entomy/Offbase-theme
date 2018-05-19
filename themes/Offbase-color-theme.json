@@ -247,6 +247,13 @@
 			"settings": {
 				"foreground": "#8FBF2F"
 			}
+		},
+		{
+			"name": "Variable, Object",
+			"scope": ["variable.other.object"],
+			"settings": {
+				"foreground": "#BF2F8F"
+			}
 		}
 	]
 }
