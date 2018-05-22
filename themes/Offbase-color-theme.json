@@ -102,7 +102,10 @@
 		},
 		{
 			"name": "Entity, Selector",
-			"scope": ["entity.name.selector"],
+			"scope": [
+				"entity.name.selector",
+				"entity.name.variable.parameter"
+			],
 			"settings":{
 				"foreground": "#AAAAAA",
 				"fontStyle": "italic"
