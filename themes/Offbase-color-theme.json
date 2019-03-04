@@ -73,7 +73,10 @@
 		},
 		{
 			"name": "Entity, Attribute",
-			"scope": ["entity.other.attribute-name"],
+			"scope": [
+				"entity.other.attribute-name",
+				"support.function.attribute"
+			],
 			"settings": {
 				"foreground": "#2FBF8F"
 			}
