@@ -147,7 +147,7 @@
 		},
 		{
 			"name": "Keyword, Modifier",
-			"scope": ["keyword.control"],
+			"scope": ["keyword.modifier"],
 			"settings": {
 				"foreground": "#CCCCCC",
 				"fontStyle": "bold"
