@@ -177,6 +177,14 @@
 			}
 		},
 		{
+			"name": "Operator, Unary",
+			"scope": ["keyword.operator.unary"],
+			"settings": {
+				"foreground": "#FFBF40",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Punctuation",
 			"scope": ["punctuation"],
 			"settings":{
