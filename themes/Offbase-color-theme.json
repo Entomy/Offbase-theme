@@ -39,15 +39,15 @@
 			"name": "Comment",
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "#444444"
+				"foreground": "#444444",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Comment, Document",
 			"scope": ["comment.block.documentation"],
 			"settings":{
-				"foreground": "#666666",
-				"fontStyle": "italic"
+				"foreground": "#666666"
 			}
 		},
 		{
@@ -165,7 +165,7 @@
 			"name": "Meta, Tag",
 			"scope": ["meta.tag"],
 			"settings": {
-				"fontStyle": ""
+				"fontStyle": "italic"
 			}
 		},
 		{
