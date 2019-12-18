@@ -144,11 +144,43 @@
 			}
 		},
 		{
+			"name": "Keyword, Spin, Control, Cog",
+			"scope": ["keyword.control.cog"],
+			"settings": {
+				"foreground": "#80AAFF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Control, Configuration",
+			"scope": ["keyword.control.configuration"],
+			"settings": {
+				"foreground": "#80FFD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keyword, Control, Directive",
 			"scope": ["keyword.control.directive"],
 			"settings": {
 				"foreground": "#8F2FBF",
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keyword, PASM, Control, Directive",
+			"scope": ["keyword.control.directive.pasm"],
+			"settings": {
+				"foreground": "#D580FF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Control, Process",
+			"scope": ["keyword.control.process"],
+			"settings": {
+				"foreground": "#FFD480",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -164,6 +196,54 @@
 			"scope": ["keyword.modifier.unknown"],
 			"settings": {
 				"foreground": "#AFBF8F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, CON",
+			"scope": ["keyword.con.spin"],
+			"settings": {
+				"foreground": "#BF7F00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, VAR",
+			"scope": ["keyword.var.spin"],
+			"settings": {
+				"foreground": "#BF4000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, OBJ",
+			"scope": ["keyword.obj.spin"],
+			"settings": {
+				"foreground": "#BF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, PUB",
+			"scope": ["keyword.pub.spin"],
+			"settings": {
+				"foreground": "#007FBF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, PRI",
+			"scope": ["keyword.pri.spin"],
+			"settings": {
+				"foreground": "#00BF7F",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Keyword, Spin, DAT",
+			"scope": ["keyword.dat.spin"],
+			"settings": {
+				"foreground": "#80BF00",
 				"fontStyle": "bold"
 			}
 		},
